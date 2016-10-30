@@ -1,0 +1,23 @@
+{
+  "name": "max-bottom",
+  "version": "0.0.1",
+  "description": "Standalone javascript library to make Max Bottom Scroll event",
+  "main": "max-bottom.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BosNaufal/max-bottom.git"
+  },
+  "keywords": [
+    "event",
+    "standalone",
+    "scroll",
+    "max-bottom-scroll",
+    "max-bottom"
+  ],
+  "author": "Naufal Rabbani <bosnaufalemail@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BosNaufal/max-bottom/issues"
+  },
+  "homepage": "https://bosnaufal.github.io/max-bottom"
+}
