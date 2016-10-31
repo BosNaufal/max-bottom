@@ -1,6 +1,6 @@
 {
   "name": "max-bottom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Standalone javascript library to make Max Bottom Scroll event",
   "main": "max-bottom.js",
   "repository": {
