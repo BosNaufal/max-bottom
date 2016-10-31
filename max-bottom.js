@@ -1,7 +1,7 @@
 /*! Copyright (c) 2016 Naufal Rabbani (http://github.com/BosNaufal)
 * Licensed Under MIT (http://opensource.org/licenses/MIT)
 *
-* Max Bottom - Version@0.0.1
+* Max Bottom - Version@0.0.2
 *
 */
 
@@ -10,10 +10,10 @@
   // Constructor
   function onMaxBottom (cb) {
     this.evt = function (e) {
-      var bodyHeight = document.body.scrollHeight;
+      var docHeight = document.documentElement.scrollHeight;
       var windowHeight = window.innerHeight;
       var curScroll = window.scrollY;
-      var maxBottom = (bodyHeight - windowHeight) === curScroll;
+      var maxBottom = (docHeight - windowHeight) === curScroll;
       if(maxBottom){
         return cb ? cb() : null;
       }
